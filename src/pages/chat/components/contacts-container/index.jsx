@@ -1,4 +1,5 @@
 import React from 'react'
+import ProfileInfo from './components/profile-info';
 
 const ContactsContainer = () => {
   return (
@@ -18,6 +19,7 @@ const ContactsContainer = () => {
             <Title text="Channels"/>
         </div>
       </div>
+      <ProfileInfo></ProfileInfo>
     </div>
   )
 }
@@ -59,7 +61,7 @@ const Logo = () => {
 
   const Title = ({text}) => {
     return (
-        <h6 className='uppercase tracking-widest test-neutral-400 pl-10 font-light text-opacity-90 text-sm'>
+        <h6 className='uppercase tracking-widest test-neutral-400 pl-10  *: text-opacity-90 text-sm'>
             {text}
         </h6>
     )
